@@ -1,0 +1,2 @@
+selenium==4.14.0
+selenium_driver_updater==6.0.2
