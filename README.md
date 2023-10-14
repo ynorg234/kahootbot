@@ -4,13 +4,20 @@ This is my new Kahoot spammer.
 This spammer does not answer questions at the moment.
 
 # How to use
+
 Step 1:
+
+Clone the repository
+
+
+
+Step 2:
 
 Get the requirements by running: 
 
 `pip install -r requirements.txt`
 
-Step 2:
+Step 3:
 
 Execute the script:
 
