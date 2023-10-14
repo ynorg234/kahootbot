@@ -5,12 +5,12 @@ from selenium import webdriver
 from time import sleep
 import os
 # testing first version that uses working selenium
+id = input("Enter kahoot pin... ")
+bots = input("Enter number of bots... ")
+botname = input("Enter Bot name here... ")
 bd = os.path.dirname(os.path.abspath(__file__))
 fn = DriverUpdater.install(path=bd, driver_name=DriverUpdater.chromedriver, upgrade=True, check_driver_is_up_to_date=True)
 driver = webdriver.Chrome(fn)
-id = input("Enter kahoot id...")
-bots = input("Enter number of bots... ")
-botname = input("Enter Bot name here...")
 kahootlink = f"https://kahoot.it/?pin={id}&refer_method=link"
 driver.get(kahootlink)
 i = 0
